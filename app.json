@@ -1,0 +1,24 @@
+{
+  "expo":  {
+    "name": "Handyman",
+    "sdkVersion": "26.0.0",
+    "slug":  "find-handyman",
+    "version": "6.0",
+    "android":  {
+      "package":  "com.find.handyman",
+      "config": {
+        "googleMaps": {
+          "apiKey":  "AIzaSyDCaeqQKfX3AT3QuWtsYiEJ1UcABlJGpys"
+        },
+        "googleSignIn": {
+          "apiKey":  "AIzaSyDCaeqQKfX3AT3QuWtsYiEJ1UcABlJGpys",
+          "certificateHash": "96 06 78 0A D3 B5 12 DA 3A F6 5A CA 04 84 AA F8 AC EC 5F 80"
+        }
+      },
+      "permissions":[      
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]      
+    }
+  }
+}
