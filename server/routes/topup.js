@@ -1,8 +1,8 @@
 var db = require('../connection');
 var connection = db.connection();
 var mailgun = require('mailgun-js')({
-    apiKey: 'f84566c77f4dd36fe428b2dc2d680097-6b60e603-4d721250',
-    domain: 'sandbox6ed9d0dc95e54148860e8acf11ccb867.mailgun.org'});
+    apiKey: '',
+    domain: ''});
 
 var express = require('express');
 var router = express.Router();
